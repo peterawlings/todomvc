@@ -165,12 +165,10 @@ jQuery(function ($) {
 			}
 
 			if (e.which === ESCAPE_KEY) {
-				// $(e.target).data('abort', true).blur();
 				$(e.target).data('abort', true).blur();
 			}
 		},
 		update: function (e) {
-			// debugger;
 			var el = e.target;
 			var $el = $(el);
 			var val = $el.val().trim();
